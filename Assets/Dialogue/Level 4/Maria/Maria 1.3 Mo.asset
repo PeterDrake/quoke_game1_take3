@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a692057595962314d904972bdfcf7e54, type: 3}
+  m_Name: Maria 1.3 Mo
+  m_EditorClassIdentifier: 
+  speech: Nice to meet you both. Do either of you have any fires or trapped people
+    to report?
+  optionOneText: Um, no. I was hoping to ask you for some information.
+  optionOne: {fileID: 11400000, guid: 51d0da2c16ebbcb4cbd0e01784271c01, type: 2}
+  optionTwoText: 
+  optionTwo: {fileID: 0}
+  Requirements: []
+  Outcomes: []
+  NewHead: {fileID: 0}

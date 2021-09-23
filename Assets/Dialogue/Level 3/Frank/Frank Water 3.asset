@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a692057595962314d904972bdfcf7e54, type: 3}
+  m_Name: Frank Water 3
+  m_EditorClassIdentifier: 
+  speech: 'Yeah, but the plumbing''s not working. I think a lot of pipes broke in
+    the quake. '
+  optionOneText: That doesn't matter. We can take it out of the water heater. Do
+    you have a bucket or something?
+  optionOne: {fileID: 11400000, guid: 1bcee1fd965b742afb5ec2c866ed158a, type: 2}
+  optionTwoText: 
+  optionTwo: {fileID: 0}
+  Requirements: []
+  Outcomes: []
+  NewHead: {fileID: 0}

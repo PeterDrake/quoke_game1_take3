@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9081b025a17517146bf6f9d8ffb8e392, type: 3}
+  m_Name: Zelda Water Clean
+  m_EditorClassIdentifier: 
+  speech: Ahh, refreshing! Thanks, here's the shovel.
+  optionOneText: Thanks Zelda. You're welcome to use the pit latrine once it's built
+    if you want.
+  optionOne: {fileID: 11400000, guid: b52ff2f96d3275349a9e7d7d9a05e026, type: 2}
+  optionTwoText: 
+  optionTwo: {fileID: 0}
+  Requirements: []
+  Outcomes:
+  - {fileID: 11400000, guid: ce15081f5a79b430697066141b2a3fef, type: 2}
+  - {fileID: 11400000, guid: 8c406b57c461a49d5ac8acbaf037721a, type: 2}
+  - {fileID: 11400000, guid: ded5dc027ae8ea442a1ab20cef8b7e0d, type: 2}
+  NewHead: {fileID: 0}
+  IfRequirementsOne:
+  - {fileID: 11400000, guid: df5d28158da1444a782acfa64243e71f, type: 2}
+  optionOneTextAlt: Thanks, I bet it'll come in handy at some point.
+  optionOneAlt: {fileID: 11400000, guid: 4f032665e797fe247b61944c5bdfd7a3, type: 2}
+  IfRequirementsTwo: []
+  optionTwoTextAlt: 
+  optionTwoAlt: {fileID: 0}

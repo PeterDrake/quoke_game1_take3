@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9081b025a17517146bf6f9d8ffb8e392, type: 3}
+  m_Name: Bruce New Head 3
+  m_EditorClassIdentifier: 
+  speech: Have you built the composting toilet system?
+  optionOneText: Yes, I did!
+  optionOne: {fileID: 11400000, guid: 2c5f2f24baefdd343ac1824c4c858ebd, type: 2}
+  optionTwoText: 
+  optionTwo: {fileID: 0}
+  Requirements: []
+  Outcomes: []
+  NewHead: {fileID: 0}
+  IfRequirementsOne:
+  - {fileID: 11400000, guid: b6a75cd5c325c0f4baf2b0653e8fe42c, type: 2}
+  optionOneTextAlt: No, not yet..
+  optionOneAlt: {fileID: 11400000, guid: 1b7ac6befcad18a4b8b7ffbae373569d, type: 2}
+  IfRequirementsTwo: []
+  optionTwoTextAlt: 
+  optionTwoAlt: {fileID: 0}

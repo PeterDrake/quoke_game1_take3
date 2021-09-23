@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a692057595962314d904972bdfcf7e54, type: 3}
+  m_Name: Mo3
+  m_EditorClassIdentifier: 
+  speech: "What? No, BEECN -- Basic Earthquake Emergency Communication, um ... Node?
+    They\u2019ve got a radio and might know what\u2019s going on."
+  optionOneText: Oh, okay. How will we find it?
+  optionOne: {fileID: 11400000, guid: e7c1db8a830d4f04d8a0c8e81472584e, type: 2}
+  optionTwoText: 
+  optionTwo: {fileID: 0}
+  Requirements: []
+  Outcomes: []
+  NewHead: {fileID: 0}

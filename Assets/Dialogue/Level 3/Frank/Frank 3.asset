@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a692057595962314d904972bdfcf7e54, type: 3}
+  m_Name: Frank 3
+  m_EditorClassIdentifier: 
+  speech: Sometimes destiny throws you on the grill.
+  optionOneText: 'Ugh. You''re the wurst. '
+  optionOne: {fileID: 11400000, guid: 993a0ccb8c9dd442c9bfa75e59d98e74, type: 2}
+  optionTwoText: 
+  optionTwo: {fileID: 0}
+  Requirements: []
+  Outcomes: []
+  NewHead: {fileID: 0}

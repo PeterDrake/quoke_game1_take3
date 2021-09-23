@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Levels/StartPage.unity
+    guid: e31b350d07bdf4e41a03b304660edeaf
+  - enabled: 1
+    path: Assets/Scenes/Levels/Menu.unity
+    guid: 2f56badb82cbe47d29efd1ed6b56c0fb
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level 1.unity
+    guid: 62705fe3445d94c49a618cc70b00c28c
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level 2.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level 3.unity
+    guid: e71fe45bc3373f4448fd8685b7722db1
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level 4.unity
+    guid: 9e6cd30f376ceb146bc6d64d1e5c223e
+  - enabled: 1
+    path: Assets/Scenes/MiniGames/Gas_Value_MiniGame.unity
+    guid: 0e868c106ece0f742a5b6c17c7ef8a61
+  - enabled: 1
+    path: Assets/Scenes/MiniGames/ToiletMiniGame.unity
+    guid: a4535a2f46a8da744b3a51d56e457efc
+  - enabled: 1
+    path: Assets/Scenes/MiniGames/WaterHeaterMiniGame.unity
+    guid: cea15f03dabfd4efba0076a79e1e1231
+  - enabled: 1
+    path: Assets/Scenes/MiniGames/PitLatrineMiniGame.unity
+    guid: c8373060399cc6044b2dea749fe1ddf3
+  - enabled: 1
+    path: Assets/Scenes/MiniGames/WaterBucketMiniGame.unity
+    guid: 9c00c379c99ce4449b1aef1adf8b885a
+  - enabled: 1
+    path: Assets/Scenes/Levels/EndPage.unity
+    guid: c360ed31686414f809c63a66b505e92a
+  - enabled: 1
+    path: Assets/Scenes/MiniGames/SaveCorgi.unity
+    guid: 037ce1f9d77b3024d8ddfd32a995211b
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level 5.unity
+    guid: 3497732021e85d5409961965ab5861dc
+  - enabled: 1
+    path: Assets/Scenes/Levels/CorgiCutScene.unity
+    guid: a482fdb8b81c8704d85c6b7f77c9f968
+  m_configObjects: {}

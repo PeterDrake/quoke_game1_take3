@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9081b025a17517146bf6f9d8ffb8e392, type: 3}
+  m_Name: NewHead
+  m_EditorClassIdentifier: 
+  speech: Have you set up that sanitation station yet?
+  optionOneText: 'Yes, I finished a two-bucket system. '
+  optionOne: {fileID: 11400000, guid: f2c92a4312374e64dbfa4255d17e7741, type: 2}
+  optionTwoText: 
+  optionTwo: {fileID: 0}
+  Requirements: []
+  Outcomes: []
+  NewHead: {fileID: 0}
+  IfRequirementsOne:
+  - {fileID: 11400000, guid: ca56d5c637697024684243562fb6aced, type: 2}
+  optionOneTextAlt: 'No, I haven''t put that together yet. '
+  optionOneAlt: {fileID: 11400000, guid: 2ef321040985c124f99112c8842ec078, type: 2}
+  IfRequirementsTwo:
+  - {fileID: 11400000, guid: 0b03776babcbacf42a38be727d03c61e, type: 2}
+  optionTwoTextAlt: Can you give me any more information?
+  optionTwoAlt: {fileID: 11400000, guid: b30c2c3cca90abb4d94a5b52a6f11dfe, type: 2}

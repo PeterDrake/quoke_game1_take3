@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9081b025a17517146bf6f9d8ffb8e392, type: 3}
+  m_Name: Frank Toilet 2
+  m_EditorClassIdentifier: 
+  speech: There might be utility lines buried there. You can use my back yard instead.
+  optionOneText: Nice. I can use Zelda's shovel to dig a hole.
+  optionOne: {fileID: 11400000, guid: f925ae0d7a9ad41ff80b1599dc3fd5b1, type: 2}
+  optionTwoText: 
+  optionTwo: {fileID: 0}
+  Requirements: []
+  Outcomes: []
+  NewHead: {fileID: 0}
+  IfRequirementsOne:
+  - {fileID: 11400000, guid: 7ad45b9b99d0f45109846680a9f462b7, type: 2}
+  optionOneTextAlt: Perfect! Do you have a shovel?
+  optionOneAlt: {fileID: 11400000, guid: e295654cd21c3384e8c39c6bfa970c85, type: 2}
+  IfRequirementsTwo: []
+  optionTwoTextAlt: 
+  optionTwoAlt: {fileID: 0}

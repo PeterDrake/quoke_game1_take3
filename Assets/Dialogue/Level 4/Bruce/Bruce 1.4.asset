@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a692057595962314d904972bdfcf7e54, type: 3}
+  m_Name: Bruce 1.4
+  m_EditorClassIdentifier: 
+  speech: "Great, I\u2019ll meet you in front of the shelter."
+  optionOneText: 
+  optionOne: {fileID: 0}
+  optionTwoText: 
+  optionTwo: {fileID: 0}
+  Requirements: []
+  Outcomes:
+  - {fileID: 11400000, guid: 04fa6cd56306444b2b909046c5fd92c9, type: 2}
+  - {fileID: 11400000, guid: 45364bab0f51ad941924c273e1fac297, type: 2}
+  - {fileID: 11400000, guid: 2ace1fb6442494aa980fba60e1aa3efd, type: 2}
+  - {fileID: 11400000, guid: 0258693db44654402ad94b3975b639e0, type: 2}
+  - {fileID: 11400000, guid: 82e1338d8cd0b48a8867bcb36eb3ca24, type: 2}
+  - {fileID: 11400000, guid: aa88fa034662e4d1fa8a87420a27055a, type: 2}
+  - {fileID: 11400000, guid: 6ba8a76934eddff43b0854f3c069b200, type: 2}
+  - {fileID: 11400000, guid: a23786919eac7084989848690799584f, type: 2}
+  - {fileID: 11400000, guid: 0a5c658c92222cd46af1b486aead9fbc, type: 2}
+  - {fileID: 11400000, guid: 3b61a451ffa5b0e449e0589e7ff03f28, type: 2}
+  - {fileID: 11400000, guid: b2c163cb4fe0f45b5902f0b152cb0f25, type: 2}
+  NewHead: {fileID: 11400000, guid: 54695062464461340a986e7bd69b842e, type: 2}

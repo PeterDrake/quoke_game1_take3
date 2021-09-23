@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9081b025a17517146bf6f9d8ffb8e392, type: 3}
+  m_Name: Maria 2.1
+  m_EditorClassIdentifier: 
+  speech: I'm doing good. It's been busy at the BEECN.
+  optionOneText: Have you gotten any news about a Corgi around here?
+  optionOne: {fileID: 11400000, guid: e1e502fabaf9f74419814833668a73e9, type: 2}
+  optionTwoText: 
+  optionTwo: {fileID: 0}
+  Requirements: []
+  Outcomes: []
+  NewHead: {fileID: 0}
+  IfRequirementsOne:
+  - {fileID: 11400000, guid: 9fc6f249a06ca70448cd0404a8d09800, type: 2}
+  optionOneTextAlt: That's good. I hope you're able to help everybody out.
+  optionOneAlt: {fileID: 11400000, guid: dfe7fe2814bcab14db50e582bf9b3a89, type: 2}
+  IfRequirementsTwo: []
+  optionTwoTextAlt: 
+  optionTwoAlt: {fileID: 0}

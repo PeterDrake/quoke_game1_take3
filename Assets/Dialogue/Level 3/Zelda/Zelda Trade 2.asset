@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a692057595962314d904972bdfcf7e54, type: 3}
+  m_Name: Zelda Trade 2
+  m_EditorClassIdentifier: 
+  speech: Alright, see you later.
+  optionOneText: 
+  optionOne: {fileID: 0}
+  optionTwoText: 
+  optionTwo: {fileID: 0}
+  Requirements: []
+  Outcomes:
+  - {fileID: 11400000, guid: ded5dc027ae8ea442a1ab20cef8b7e0d, type: 2}
+  - {fileID: 11400000, guid: 1531dec95ebe74c2ea7ec83bb8015dab, type: 2}
+  - {fileID: 11400000, guid: 8c406b57c461a49d5ac8acbaf037721a, type: 2}
+  NewHead: {fileID: 0}

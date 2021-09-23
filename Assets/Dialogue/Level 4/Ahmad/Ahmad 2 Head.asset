@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9081b025a17517146bf6f9d8ffb8e392, type: 3}
+  m_Name: Ahmad 2 Head
+  m_EditorClassIdentifier: 
+  speech: Hi Zelda.
+  optionOneText: Now we have a barrel full of water. Do you think we should boil
+    it in case anything washed off the roof?
+  optionOne: {fileID: 11400000, guid: 62e75bf6d8939874686a40fd6bece2c2, type: 2}
+  optionTwoText: 
+  optionTwo: {fileID: 0}
+  Requirements: []
+  Outcomes: []
+  NewHead: {fileID: 0}
+  IfRequirementsOne:
+  - {fileID: 11400000, guid: 049ac7c826df6e84091c4e45620950be, type: 2}
+  optionOneTextAlt: Hi Ahmad!
+  optionOneAlt: {fileID: 11400000, guid: 8536613a3e2ec6545968fe6b1c105779, type: 2}
+  IfRequirementsTwo: []
+  optionTwoTextAlt: 
+  optionTwoAlt: {fileID: 0}

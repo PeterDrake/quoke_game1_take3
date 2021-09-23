@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9081b025a17517146bf6f9d8ffb8e392, type: 3}
+  m_Name: Frank Stuff
+  m_EditorClassIdentifier: 
+  speech: Did you find some rope and a shovel for the pit latrine?
+  optionOneText: Yes, where is your yard again?
+  optionOne: {fileID: 11400000, guid: aed59d3b3ca3c4c019a9c032be4ab451, type: 2}
+  optionTwoText: 
+  optionTwo: {fileID: 0}
+  Requirements: []
+  Outcomes:
+  - {fileID: 11400000, guid: ebb1702abfbf8ef41b9ab915f58b1f62, type: 2}
+  NewHead: {fileID: 0}
+  IfRequirementsOne:
+  - {fileID: 11400000, guid: 903dc989b955a47a39455dc67129d869, type: 2}
+  - {fileID: 11400000, guid: 7ad45b9b99d0f45109846680a9f462b7, type: 2}
+  optionOneTextAlt: No. I'm still looking.
+  optionOneAlt: {fileID: 11400000, guid: b3ee4b7504c934713b390910e11382e2, type: 2}
+  IfRequirementsTwo: []
+  optionTwoTextAlt: 
+  optionTwoAlt: {fileID: 0}

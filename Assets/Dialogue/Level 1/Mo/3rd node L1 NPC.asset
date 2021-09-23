@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a692057595962314d904972bdfcf7e54, type: 3}
+  m_Name: 3rd node L1 NPC
+  m_EditorClassIdentifier: 
+  speech: You should shut that off as soon as you can. Here, you can use my wrench.
+    It's nonsparking, so it's good for gas. Do you know where your gas meter is?
+  optionOneText: No, I don't.
+  optionOne: {fileID: 11400000, guid: f0f8d784b5fda45dcadd4ed58927d772, type: 2}
+  optionTwoText: 
+  optionTwo: {fileID: 0}
+  Requirements: []
+  Outcomes:
+  - {fileID: 11400000, guid: 064965e48e14fdb489247c3b0680fd9c, type: 2}
+  - {fileID: 11400000, guid: e96c9f4579cd4446f951e1b08ab0f776, type: 2}
+  - {fileID: 11400000, guid: 6ea14e2216a2547e0b52dfe1ef4aa0ce, type: 2}
+  NewHead: {fileID: 0}

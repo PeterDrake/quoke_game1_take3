@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3f27d0d43141628cf7ec127d010d94, type: 3}
+  m_Name: BleachWater8
+  m_EditorClassIdentifier: 
+  DisplayName: Water
+  Description: A gallon of water with 8 drops of bleach.
+  Icon: {fileID: 21300000, guid: 701feab60a8104e34bb8e719d1d46754, type: 3}
+  DisplayImage: {fileID: 21300000, guid: 701feab60a8104e34bb8e719d1d46754, type: 3}
+  ID: BLCHWTR8
+  action: {fileID: 11400000, guid: f8ed056a5c69c124ebe07b3bbf1c644f, type: 2}
+  hydrationChange: 100
+  killPlayer: 0
+  DeathMessage: 

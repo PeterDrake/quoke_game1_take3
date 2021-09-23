@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a692057595962314d904972bdfcf7e54, type: 3}
+  m_Name: Maria 1.6
+  m_EditorClassIdentifier: 
+  speech: "The weather radio says there\u2019s rain coming, so you\u2019ll probably
+    want to get in there soon."
+  optionOneText: 
+  optionOne: {fileID: 0}
+  optionTwoText: 
+  optionTwo: {fileID: 0}
+  Requirements: []
+  Outcomes:
+  - {fileID: 11400000, guid: 0465be469deb7484bad66bc4455b291e, type: 2}
+  - {fileID: 11400000, guid: 0a5c658c92222cd46af1b486aead9fbc, type: 2}
+  - {fileID: 11400000, guid: 74eb55ed217f1dc4eb15e49578240574, type: 2}
+  - {fileID: 11400000, guid: c7cd40fd688f6af48a310b9499d7aa17, type: 2}
+  - {fileID: 11400000, guid: 9432599aa3016724fafa485b23222194, type: 2}
+  - {fileID: 11400000, guid: f2c4f15745a82407286be0291836b0c6, type: 2}
+  NewHead: {fileID: 11400000, guid: c4465b56f2f56094cb3b1a16b1eb0532, type: 2}

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9081b025a17517146bf6f9d8ffb8e392, type: 3}
+  m_Name: Zelda Talk 5 Win
+  m_EditorClassIdentifier: 
+  speech: If you need a place to crash, I've got a tent set up right here. It's not
+    safe to sleep in these buildings; I almost got flattened in that last aftershock!
+  optionOneText: Thanks, I'll take you up on that.
+  optionOne: {fileID: 11400000, guid: ca1083a5ab5bf6e4ca2e658d840d8f33, type: 2}
+  optionTwoText: 
+  optionTwo: {fileID: 0}
+  Requirements: []
+  Outcomes:
+  - {fileID: 11400000, guid: e4e423ab946e74934aa82b22fb6c2627, type: 2}
+  - {fileID: 11400000, guid: 6e08965a8a99471438f118b933a3c487, type: 2}
+  NewHead: {fileID: 0}
+  IfRequirementsOne: []
+  optionOneTextAlt: 
+  optionOneAlt: {fileID: 0}
+  IfRequirementsTwo: []
+  optionTwoTextAlt: 
+  optionTwoAlt: {fileID: 0}

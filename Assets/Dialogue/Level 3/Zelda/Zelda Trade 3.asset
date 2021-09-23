@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9081b025a17517146bf6f9d8ffb8e392, type: 3}
+  m_Name: Zelda Trade 3
+  m_EditorClassIdentifier: 
+  speech: Is this water clean?
+  optionOneText: 'Yes, it''s clean. '
+  optionOne: {fileID: 11400000, guid: 74f80c0f6b8894e428300a2da6216a52, type: 2}
+  optionTwoText: 
+  optionTwo: {fileID: 0}
+  Requirements: []
+  Outcomes: []
+  NewHead: {fileID: 0}
+  IfRequirementsOne:
+  - {fileID: 11400000, guid: d77640073ece14ccfa0532ef18c92f55, type: 2}
+  optionOneTextAlt: No, but I have some chlorine tablets to clean it.
+  optionOneAlt: {fileID: 11400000, guid: efed67df7bdf74d73ad784c2bdc842c0, type: 2}
+  IfRequirementsTwo: []
+  optionTwoTextAlt: 
+  optionTwoAlt: {fileID: 0}

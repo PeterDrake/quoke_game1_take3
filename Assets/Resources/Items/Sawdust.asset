@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fe544f770ae3e64f8d171e0461b7b76, type: 3}
+  m_Name: Sawdust
+  m_EditorClassIdentifier: 
+  DisplayName: Sawdust
+  Description: A heaping handful of sawdust.
+  Icon: {fileID: 21300000, guid: 4cafb9504be1f584bba96fec879995ac, type: 3}
+  DisplayImage: {fileID: 21300000, guid: 4cafb9504be1f584bba96fec879995ac, type: 3}
+  ID: SAWD
+  action: {fileID: 0}

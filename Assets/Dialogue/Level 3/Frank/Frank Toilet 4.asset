@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a692057595962314d904972bdfcf7e54, type: 3}
+  m_Name: Frank Toilet 4
+  m_EditorClassIdentifier: 
+  speech: Alright. The entrance is along this fence.
+  optionOneText: 
+  optionOne: {fileID: 0}
+  optionTwoText: 
+  optionTwo: {fileID: 0}
+  Requirements: []
+  Outcomes:
+  - {fileID: 11400000, guid: ebb1702abfbf8ef41b9ab915f58b1f62, type: 2}
+  - {fileID: 11400000, guid: 14dab92cf280f4985a93af2e6aa06032, type: 2}
+  - {fileID: 11400000, guid: 86924ef4695f1a24c985f7acfc127079, type: 2}
+  - {fileID: 11400000, guid: 8c406b57c461a49d5ac8acbaf037721a, type: 2}
+  NewHead: {fileID: 11400000, guid: 0bf194738963c4c9889c04c3bd588bff, type: 2}

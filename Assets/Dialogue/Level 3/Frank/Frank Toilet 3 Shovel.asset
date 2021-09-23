@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a692057595962314d904972bdfcf7e54, type: 3}
+  m_Name: Frank Toilet 3 Shovel
+  m_EditorClassIdentifier: 
+  speech: 'I have some plywood we can use to make a floor around the pit. I''ve also
+    got a tarp we can put up to keep the rain out if we can find a rope. '
+  optionOneText: 'Okay. I''ll try to find some rope and then start building it in
+    your backyard. '
+  optionOne: {fileID: 11400000, guid: ab50eb836ed985c47ade7e74d19d6191, type: 2}
+  optionTwoText: 
+  optionTwo: {fileID: 0}
+  Requirements: []
+  Outcomes: []
+  NewHead: {fileID: 0}

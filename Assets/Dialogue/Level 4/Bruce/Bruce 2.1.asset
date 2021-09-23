@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9081b025a17517146bf6f9d8ffb8e392, type: 3}
+  m_Name: Bruce 2.1
+  m_EditorClassIdentifier: 
+  speech: "We\u2019ll put together a bin and line it with carbon material. Have you
+    found all of the supplies?"
+  optionOneText: Yes, I've collected all the materials! Mulch, shredded paper, and
+    wood, right here!
+  optionOne: {fileID: 11400000, guid: 9584b6751c652b746843446e10f413d3, type: 2}
+  optionTwoText: 
+  optionTwo: {fileID: 0}
+  Requirements: []
+  Outcomes: []
+  NewHead: {fileID: 11400000, guid: de92c1e4b6fd55f46930a824e3be2ade, type: 2}
+  IfRequirementsOne:
+  - {fileID: 11400000, guid: 5a46c65a4f440004bb5ab49fb22c9eff, type: 2}
+  - {fileID: 11400000, guid: 60496c2da9e63f84c8bf2601ba64f3f8, type: 2}
+  - {fileID: 11400000, guid: 5a3a2a817fd1368459b70c6901d16f2b, type: 2}
+  optionOneTextAlt: No, not yet..
+  optionOneAlt: {fileID: 11400000, guid: 732ee7ff339c1f140bc824896ad21fb4, type: 2}
+  IfRequirementsTwo: []
+  optionTwoTextAlt: 
+  optionTwoAlt: {fileID: 0}

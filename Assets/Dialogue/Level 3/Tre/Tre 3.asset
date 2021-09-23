@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a692057595962314d904972bdfcf7e54, type: 3}
+  m_Name: Tre 3
+  m_EditorClassIdentifier: 
+  speech: How about...  RIGHT HERE IN MY HAND?
+  optionOneText: 'Sweet! '
+  optionOne: {fileID: 11400000, guid: b561036e94d2a453e862c350e971b8d4, type: 2}
+  optionTwoText: 
+  optionTwo: {fileID: 0}
+  Requirements:
+  - {fileID: 11400000, guid: 9eccf8e3085894e6d9e9089049d72751, type: 2}
+  Outcomes:
+  - {fileID: 11400000, guid: 95369d7a2a65447be8cb7cf199719281, type: 2}
+  - {fileID: 11400000, guid: 8c406b57c461a49d5ac8acbaf037721a, type: 2}
+  NewHead: {fileID: 0}

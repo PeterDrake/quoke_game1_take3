@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a692057595962314d904972bdfcf7e54, type: 3}
+  m_Name: Frank Water 5
+  m_EditorClassIdentifier: 
+  speech: Alright. It's the building right behind me.
+  optionOneText: 
+  optionOne: {fileID: 0}
+  optionTwoText: 
+  optionTwo: {fileID: 0}
+  Requirements: []
+  Outcomes:
+  - {fileID: 11400000, guid: 1531dec95ebe74c2ea7ec83bb8015dab, type: 2}
+  - {fileID: 11400000, guid: 2440fe4dcf8be534a850e97b0a6a482b, type: 2}
+  - {fileID: 11400000, guid: ebb1702abfbf8ef41b9ab915f58b1f62, type: 2}
+  - {fileID: 11400000, guid: 95c1c6c0e3b464d44a75f4f87f85bb7d, type: 2}
+  - {fileID: 11400000, guid: 8c406b57c461a49d5ac8acbaf037721a, type: 2}
+  NewHead: {fileID: 11400000, guid: 18ac66a31f71f4355b0a0ad0b976439f, type: 2}

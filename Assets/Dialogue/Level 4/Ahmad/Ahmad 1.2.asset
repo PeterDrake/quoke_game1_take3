@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a692057595962314d904972bdfcf7e54, type: 3}
+  m_Name: Ahmad 1.2
+  m_EditorClassIdentifier: 
+  speech: There's a barrel by the downspout on the corner of this building. Can you
+    set it up to collect rainwater?
+  optionOneText: "I\u2019ll see what I can do!\r"
+  optionOne: {fileID: 11400000, guid: 5a0fa73bea323bb419153646c591a0b4, type: 2}
+  optionTwoText: 
+  optionTwo: {fileID: 0}
+  Requirements: []
+  Outcomes:
+  - {fileID: 11400000, guid: eec1e6ef21c1b0042be42c7d5cd42473, type: 2}
+  - {fileID: 11400000, guid: 354b816db4794514c9591f5ec7fba3a0, type: 2}
+  - {fileID: 11400000, guid: 05a4a8405047b9445801ffb69b7c1fec, type: 2}
+  - {fileID: 11400000, guid: ea0f33053eb5a45e995c1b75552919cc, type: 2}
+  NewHead: {fileID: 0}

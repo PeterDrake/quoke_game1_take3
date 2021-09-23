@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a692057595962314d904972bdfcf7e54, type: 3}
+  m_Name: Bruce 4.1
+  m_EditorClassIdentifier: 
+  speech: Thanks, Zelda.
+  optionOneText: 
+  optionOne: {fileID: 0}
+  optionTwoText: 
+  optionTwo: {fileID: 0}
+  Requirements: []
+  Outcomes:
+  - {fileID: 11400000, guid: 45364bab0f51ad941924c273e1fac297, type: 2}
+  - {fileID: 11400000, guid: 8206848bc428e9345b0955e028edceac, type: 2}
+  NewHead: {fileID: 11400000, guid: 9de93d72a5dda6740ba31817ded172ea, type: 2}

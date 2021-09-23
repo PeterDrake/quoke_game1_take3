@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a692057595962314d904972bdfcf7e54, type: 3}
+  m_Name: Bruce 4
+  m_EditorClassIdentifier: 
+  speech: That looks great! Tell the people in the shelter that they can start using
+    their buckets again, just stop lining them with garbage bags. I'll train a couple
+    of people to empty buckets into the big compost bin.
+  optionOneText: Will do!
+  optionOne: {fileID: 11400000, guid: 782831960635fe44a8e106020367b4ac, type: 2}
+  optionTwoText: 
+  optionTwo: {fileID: 0}
+  Requirements: []
+  Outcomes: []
+  NewHead: {fileID: 11400000, guid: 9de93d72a5dda6740ba31817ded172ea, type: 2}

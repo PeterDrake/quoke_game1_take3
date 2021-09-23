@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a692057595962314d904972bdfcf7e54, type: 3}
+  m_Name: Ahmad 2.2 rain
+  m_EditorClassIdentifier: 
+  speech: Good idea. Here is some wood to build a fire and a pot so you can boil
+    some water in. It would probably be easiest to build the fire near the barrel
+    so we don't spill too much water.
+  optionOneText: 
+  optionOne: {fileID: 0}
+  optionTwoText: 
+  optionTwo: {fileID: 0}
+  Requirements: []
+  Outcomes:
+  - {fileID: 11400000, guid: 3b5d1b2ff3fe802438c2d4b081278f0c, type: 2}
+  - {fileID: 11400000, guid: 4a0218487aabbdf45b8d0c779386b488, type: 2}
+  - {fileID: 11400000, guid: d82055f412ee4bd4799173d3e456c6b8, type: 2}
+  - {fileID: 11400000, guid: 4602716bd5ed41540b659008f406e9e4, type: 2}
+  - {fileID: 11400000, guid: 70c37bafe97380b46bc21a5a9592dc1b, type: 2}
+  - {fileID: 11400000, guid: df833aab820b56f44babefd8a54f8c31, type: 2}
+  - {fileID: 11400000, guid: 4f22b218d0c58a24c94a30d5ad07aa54, type: 2}
+  - {fileID: 11400000, guid: 39a1a955a4c614e8abf5b44d5d9cba4f, type: 2}
+  NewHead: {fileID: 11400000, guid: 8db9ee2df2f0bee438bc6b9123cc36e2, type: 2}

@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Door
+  - Ground
+  - Wrench
+  - Blue
+  - Bucket
+  - Green
+  - Orange
+  - Poop
+  - ToiletPaper
+  - PlasticBag
+  - Pee
+  - Sawdust
+  - ElectricBox
+  - WaterPipe
+  - AirPipe
+  - WaterSpout
+  - Dog
+  - Bathroom
+  - MainRoom
+  - Kitchen
+  - HighGround
+  - LowGround
+  - Barrel
+  - Fire
+  - NPC
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Door
+  - Player
+  - Dog
+  - Explosion
+  - Camera
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

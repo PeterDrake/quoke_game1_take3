@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9081b025a17517146bf6f9d8ffb8e392, type: 3}
+  m_Name: Tre New Head
+  m_EditorClassIdentifier: 
+  speech: Hey how is that toilet coming along?
+  optionOneText: It's all set up.
+  optionOne: {fileID: 11400000, guid: f071e77b053c64ffb80ee6920c1d8d8a, type: 2}
+  optionTwoText: 
+  optionTwo: {fileID: 0}
+  Requirements: []
+  Outcomes: []
+  NewHead: {fileID: 0}
+  IfRequirementsOne:
+  - {fileID: 11400000, guid: d19cf06f15cb444268b6e175453a09b5, type: 2}
+  optionOneTextAlt: 'I''m working on it. '
+  optionOneAlt: {fileID: 11400000, guid: f071e77b053c64ffb80ee6920c1d8d8a, type: 2}
+  IfRequirementsTwo: []
+  optionTwoTextAlt: 
+  optionTwoAlt: {fileID: 0}

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a692057595962314d904972bdfcf7e54, type: 3}
+  m_Name: A11
+  m_EditorClassIdentifier: 
+  speech: 'Go get some rest champ! You deserve it. '
+  optionOneText: '[Sleep in Ahmad''s van.]'
+  optionOne: {fileID: 0}
+  optionTwoText: '[Sleep outside in the cold.]'
+  optionTwo: {fileID: 0}
+  Requirements: []
+  Outcomes:
+  - {fileID: 11400000, guid: a7ff8e772977d514b824ef1422e76b0a, type: 2}
+  - {fileID: 11400000, guid: 7f4b6e5af91474549bd761b3516bb5f2, type: 2}
+  NewHead: {fileID: 0}

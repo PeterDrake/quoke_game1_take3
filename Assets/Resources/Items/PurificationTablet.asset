@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fe544f770ae3e64f8d171e0461b7b76, type: 3}
+  m_Name: PurificationTablet
+  m_EditorClassIdentifier: 
+  DisplayName: Chlorine Dioxide Tablets
+  Description: The package says to put in 4 tablets per gallon.
+  Icon: {fileID: 21300000, guid: 3072feed57303499395a7c2ae9cc84d6, type: 3}
+  DisplayImage: {fileID: 21300000, guid: 3072feed57303499395a7c2ae9cc84d6, type: 3}
+  ID: TABLET
+  action: {fileID: 11400000, guid: 5e30d2ab6af0f43afbbbc0e538e78cc8, type: 2}
