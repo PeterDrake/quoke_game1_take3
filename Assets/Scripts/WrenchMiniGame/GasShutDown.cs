@@ -16,9 +16,7 @@ public class GasShutDown : MonoBehaviour
     
     private Item Wrench;
     
-    private bool HasWrench;
-    
-    private byte Conditions; //Condition is 0
+    private bool hasWrench;
     
     private GameObject canvi;
     private GameObject camera;
@@ -35,13 +33,13 @@ public class GasShutDown : MonoBehaviour
         _inventory = Systems.Inventory;
         
        Wrench =  Resources.Load<Item>("Items/Wrench");
-       _inventory.CheckOnAdd.AddListener(UpdateConditions);
+       _inventory.CheckOnAdd.AddListener(UpdateHasWrench);
         
     }
     
     public void Interaction()
     {
-        if ((Conditions ^ 0x1) == 0)
+        if (hasWrench)
         {
             logger.sendToLog("Started gas mini game","MINIGAME");
             countdown.GetComponent<CountdownBoom>().StopGasCount();
@@ -57,12 +55,9 @@ public class GasShutDown : MonoBehaviour
         }
     }
     //CAMERA, ui, move stage up a lot
-    private void UpdateConditions() //called every time an item is added to the inventory 
+    private void UpdateHasWrench() //called every time an item is added to the inventory 
     {
-        if ((Conditions ^ 0x1) == 0) return;
-
-        if ((Conditions & 0x1) > 0 || _inventory.HasItem(Wrench, 1)) //first condition not met
-            Conditions |= 0x1;
+        hasWrench = _inventory.HasItem(Wrench, 1);
     } 
 
     private void StartMinigame(Scene scn, LoadSceneMode lsm)

@@ -8,6 +8,8 @@ public class StartMiniGame : MonoBehaviour
 	public GameObject wrenchPrefab;
 	public GameObject flange;
 	public GameObject WinScreen;
+	
+	// The canvas contains the "Use Wrench" button
 	public GameObject canvas;
 
 	public Vector3 attachedWrenchPosition;
