@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
 
 public class GasShutDown : MonoBehaviour
@@ -24,7 +25,8 @@ public class GasShutDown : MonoBehaviour
     public GameObject gasAudio;
     public GameObject levelWin;
     public GameObject miniWin;
-
+    public GameObject eventSystem;  // So we can shut this down when we start the minigame
+    
     private LogToServer logger;
     void Start()
     {
@@ -43,6 +45,7 @@ public class GasShutDown : MonoBehaviour
         {
             logger.sendToLog("Started gas mini game","MINIGAME");
             countdown.GetComponent<CountdownBoom>().StopGasCount();
+            eventSystem.SetActive(false);
             SceneManager.LoadScene(MiniGameSceneName, LoadSceneMode.Additive);
             SceneManager.sceneLoaded += StartMinigame;
             _interact.enabled = false;
@@ -93,7 +96,7 @@ public class GasShutDown : MonoBehaviour
         canvi.SetActive(true);
         levelAudio.SetActive(true);
         gasAudio.SetActive(false);
-
+        eventSystem.SetActive(true);
         UIManager.Instance.ToggleActive(theGUI);
         //_inventory.RemoveItem(Wrench, 1);
        
