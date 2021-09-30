@@ -15,10 +15,10 @@ public class StartMiniGame : MonoBehaviour
 	public Vector3 attachedWrenchPosition;
 	public float z_offset;
 
-	public float flangeRotationUpperBound = -5f;
-	public float flangeRotationlowerBound = 95f;
-	public float targetRotation = 90f;
-	public float targetThreshold = 2f;
+	public float flangeRotationUpperBound;
+	public float flangeRotationlowerBound;
+	public float targetRotation;
+	public float targetThreshold;
 
 	private GameObject wrench;
 
