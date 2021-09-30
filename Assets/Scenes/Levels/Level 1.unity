@@ -42937,6 +42937,12 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 8340e8586e8556c4b82f331a034bae19, type: 3}
+--- !u!1 &1751143051 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6455381914703354311, guid: 54201a432732e3644b92dd53d5d1fef5,
+    type: 3}
+  m_PrefabInstance: {fileID: 625580730}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1756932773
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -46294,6 +46300,7 @@ MonoBehaviour:
   gasAudio: {fileID: 1847263247}
   levelWin: {fileID: 1775388896}
   miniWin: {fileID: 1098078321}
+  eventSystem: {fileID: 1751143051}
 --- !u!4 &1888483517 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 1b4ef34924659554ea1dcd936a9c8b85,
