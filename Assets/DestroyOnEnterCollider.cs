@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.AI;
 
 public class DestroyOnEnterCollider : MonoBehaviour
@@ -16,17 +14,14 @@ public class DestroyOnEnterCollider : MonoBehaviour
         script = WillBeDestroyed.GetComponent<WayPointPatrol>();
     }
 
-    void Update()
+    // TODO This definition used to be mysteriously INSIDE a definition of Update, where it didn't do anything. Can it be removed?
+    void OnCollisionEnter(Collision collision)
     {
-        void OnCollisionEnter(Collision collision)
-            { 
-                if(collision.gameObject.CompareTag("NPC"))
-                {
-                    Debug.Log("HERE IT IS");
-                    script.enabled = false;
-                    ToDestroy.enabled = false;
-                }
-            }
+        if (collision.gameObject.CompareTag("NPC"))
+        {
+            Debug.Log("HERE IT IS");
+            script.enabled = false;
+            ToDestroy.enabled = false;
+        }
     }
-    
 }

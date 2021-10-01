@@ -6,7 +6,7 @@
 public class Clobberer : MonoBehaviour
 {
     public new bool enabled;
-    public new bool aftershock;
+    public bool aftershock;
 
     private void OnCollisionEnter(Collision other)
     {

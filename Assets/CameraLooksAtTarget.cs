@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class CameraLooksAtTarget : MonoBehaviour
 {
-    #pragma strict
  
     public Transform myCamera;
     public Transform target;
