@@ -22,7 +22,6 @@ public class StartMiniGame : MonoBehaviour
 
 	private GameObject wrench;
 
-	private bool Turned = false;
 	private bool started = false;
 	
 	private WrenchMiniGameMaster _wrenchMiniGameMaster;
@@ -48,7 +47,6 @@ public class StartMiniGame : MonoBehaviour
 			Systems.Objectives.Satisfy(ObjectiveName, false);
 		}
 		Destroy(flange.GetComponent<RotateObjectWithMouse>());
-		Turned = true;
 		logger.sendToLog("Completed Level 1!","LEVEL");
 		WinScreen.SetActive(true);
 		canvas.SetActive(false);

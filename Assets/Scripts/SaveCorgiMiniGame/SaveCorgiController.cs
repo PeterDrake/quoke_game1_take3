@@ -18,7 +18,6 @@ public class SaveCorgiController : MonoBehaviour
     public GameObject Video;
     public GameObject Win;
 
-    private bool winScreen;
     private bool gameOver;
     private bool start;
 
@@ -30,7 +29,6 @@ public class SaveCorgiController : MonoBehaviour
         Video.GetComponent<VideoPlayer>().source = VideoSource.Url;
         string filepath = "http://3.128.90.245/testbuild/StreamingAssets/CorgiVideoFINALE.webm";
         Video.GetComponent<VideoPlayer>().url = filepath;
-        winScreen = false;
         gameOver = false;
         start = false;
         Video.GetComponent<VideoPlayer>().loopPointReached += CheckOver;
@@ -78,7 +76,6 @@ public class SaveCorgiController : MonoBehaviour
         logger.sendToLog("Completed Level 4!", "LEVEL");
         print  ("Video Is Over");
      GameObject.Find("Mo1").GetComponent<SaveCorgiVisit>().CorgiRescue();
-        winScreen = false;
         gameOver = true;
         print("done WINNEr");
         VideoBackground.SetActive(false);

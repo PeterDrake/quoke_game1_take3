@@ -7,7 +7,6 @@ using UnityEngine.Networking;
 public class LogToServer : Singleton<LogToServer>
 {
     
-    private String message = "Message for log";
     private String postURL = "/dbenter.php";
 
     public string loggername;
