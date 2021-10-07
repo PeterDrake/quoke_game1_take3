@@ -116,7 +116,7 @@ public class SanitationBuilt : MonoBehaviour
         (canvi = GameObject.Find("MiniGameClose")).SetActive(false);
         (camera = GameObject.Find("Main Camera")).SetActive(false);
         (vcam = GameObject.Find("CM vcam1")).SetActive(false);
-        (sunlight = GameObject.Find("Sunlight")).SetActive(false);
+        // (sunlight = GameObject.Find("Sunlight")).SetActive(false);
         levelMusic.SetActive(false);
         toiletMusic.SetActive(true);
 
@@ -130,7 +130,7 @@ public class SanitationBuilt : MonoBehaviour
         canvi.SetActive(true);
         camera.SetActive(true);
         vcam.SetActive(true);
-        sunlight.SetActive(true);
+        // sunlight.SetActive(true);
         levelMusic.SetActive(true);
         toiletMusic.SetActive(false);
         _interact.enabled = true;
@@ -145,7 +145,7 @@ public class SanitationBuilt : MonoBehaviour
         camera.SetActive(true);
         vcam.SetActive(true);
         canvi.SetActive(true);
-        sunlight.SetActive(true);
+        // sunlight.SetActive(true);
         levelMusic.SetActive(true);
         toiletMusic.SetActive(false);
 
@@ -154,6 +154,7 @@ public class SanitationBuilt : MonoBehaviour
         _inventory.RemoveItem( Sawdust, 1);
         // _inventory.RemoveItem( Sanitizer, 1);
         // _inventory.RemoveItem( ToiletPaper, 1);
+        Debug.Log("Reactivating event system");
         eventSystem.SetActive(true);
         UIManager.Instance.ToggleActive(theGUI);
 
