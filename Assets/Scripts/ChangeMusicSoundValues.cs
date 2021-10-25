@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class ChangeMusicSoundValues : MonoBehaviour
 {
-    private GameObject mHandle;
-    private GameObject sHandle;
+    // private GameObject mHandle;
+    // private GameObject sHandle;
 
 
     void Start()
