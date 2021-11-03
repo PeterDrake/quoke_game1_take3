@@ -35,19 +35,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MiniGames/PitLatrineMiniGame.unity
     guid: c8373060399cc6044b2dea749fe1ddf3
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/MiniGames/WaterBucketMiniGame.unity
     guid: 9c00c379c99ce4449b1aef1adf8b885a
   - enabled: 0
     path: Assets/Scenes/Levels/EndPage.unity
     guid: c360ed31686414f809c63a66b505e92a
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/MiniGames/SaveCorgi.unity
     guid: 037ce1f9d77b3024d8ddfd32a995211b
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Levels/Level 5.unity
     guid: 3497732021e85d5409961965ab5861dc
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Levels/CorgiCutScene.unity
     guid: a482fdb8b81c8704d85c6b7f77c9f968
   m_configObjects: {}
