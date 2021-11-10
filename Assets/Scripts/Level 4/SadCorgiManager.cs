@@ -37,14 +37,14 @@ public class SadCorgiManager : MonoBehaviour
         //if the sanitation is built, wait for four seconds and trigger "In the meantime..." slide
         Debug.Log("Waiting for 1.5 seconds");
         yield return new WaitForSeconds(3f);
-        MiniGameClose.SetActive(false);
+        MiniGameClose.SetActive(false); // This kills the "continue" button even if it hasn't been pressed
         GameObject.Find("Black Background").SetActive(false);
         if (GameObject.Find("Music") != null)
         {
             GameObject.Find("Music").GetComponent<AudioSource>().Pause();
         }
 
-        //InTheMeantimeCanvas.SetActive(true);
+        InTheMeantimeCanvas.SetActive(true);
 
         //then trigger the video
         Debug.Log("Waiting for 3 seconds");
@@ -54,8 +54,11 @@ public class SadCorgiManager : MonoBehaviour
         VideoBackground.SetActive(true);
         VideoDisplayer.SetActive(true);
         Video.SetActive(true);
-        string filepath = "http://3.128.90.245/testbuild/StreamingAssets/CorgiSadScene.webm";
+        //string filepath = "http://3.128.90.245/testbuild/StreamingAssets/CorgiSadScene.webm";
+        string filepath = System.IO.Path.Combine(Application.streamingAssetsPath, "CorgiSadSmall.mp4");
+
         Video.GetComponent<VideoPlayer>().url = filepath;
+        Debug.Log("About to play the movie.");
         Video.GetComponent<VideoPlayer>().Play();
 
         InTheMeantimeCanvas.SetActive(false);

@@ -39,6 +39,7 @@ public class IntroToCorgiSaveMiniGame : MonoBehaviour
 
     void Start()
     {
+        Debug.Log("starting");
         script = this.GetComponent<StartDialogue>();
         scriptAhmad = Ahmad.GetComponent<NPCWalking>();
         //scriptBruce = Bruce.GetComponent<NPCWalking>();
@@ -59,7 +60,6 @@ public class IntroToCorgiSaveMiniGame : MonoBehaviour
     //check if the sanitation is built
     void Update()
     {
-
         if (CompostingToilet.activeSelf && !check)
         {
             SceneManager.LoadSceneAsync("Scenes/Levels/CorgiCutScene");
@@ -71,14 +71,19 @@ public class IntroToCorgiSaveMiniGame : MonoBehaviour
     
     private IEnumerator StartCutScene()
     {
+        Debug.Log("aa");
         //if the sanitation is built, wait for four seconds and trigger "In the meantime..." slide
         yield return new WaitForSeconds(1.5f);
+        Debug.Log("a");
         MiniGameClose.SetActive(false);
-        if (GameObject.Find("Music") != null) { GameObject.Find("Music").GetComponent<AudioSource>().Pause(); }
+        if (GameObject.Find("Music") != null) {
+            GameObject.Find("Music").GetComponent<AudioSource>().Pause();
+        }
         InTheMeantimeCanvas.SetActive(true);
         
         //then trigger the video
         yield return new WaitForSeconds(3f);
+        Debug.Log("b");
         Systems.Status.Pause();
         
         VideoBackground.SetActive(true);
