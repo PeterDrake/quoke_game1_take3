@@ -34,6 +34,12 @@ public class SadCorgiManager : MonoBehaviour
     private IEnumerator StartCutScene()
     {
         Time.timeScale = 1;
+        Video.SetActive(true);
+        //string filepath = "http://3.128.90.245/testbuild/StreamingAssets/CorgiSadScene.webm";
+        string filepath = System.IO.Path.Combine(Application.streamingAssetsPath, "CorgiSadSmall.mp4");
+
+        Video.GetComponent<VideoPlayer>().url = filepath;
+        Video.GetComponent<VideoPlayer>().Prepare();
         //if the sanitation is built, wait for four seconds and trigger "In the meantime..." slide
         Debug.Log("Waiting for 1.5 seconds");
         yield return new WaitForSeconds(3f);
@@ -53,11 +59,6 @@ public class SadCorgiManager : MonoBehaviour
 
         VideoBackground.SetActive(true);
         VideoDisplayer.SetActive(true);
-        Video.SetActive(true);
-        //string filepath = "http://3.128.90.245/testbuild/StreamingAssets/CorgiSadScene.webm";
-        string filepath = System.IO.Path.Combine(Application.streamingAssetsPath, "CorgiSadSmall.mp4");
-
-        Video.GetComponent<VideoPlayer>().url = filepath;
         Debug.Log("About to play the movie.");
         Video.GetComponent<VideoPlayer>().Play();
 
