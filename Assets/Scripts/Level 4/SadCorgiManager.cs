@@ -41,9 +41,10 @@ public class SadCorgiManager : MonoBehaviour
         Video.GetComponent<VideoPlayer>().url = filepath;
         Video.GetComponent<VideoPlayer>().Prepare();
         //if the sanitation is built, wait for four seconds and trigger "In the meantime..." slide
-        Debug.Log("Waiting for 1.5 seconds");
-        yield return new WaitForSeconds(3f);
-        MiniGameClose.SetActive(false); // This kills the "continue" button even if it hasn't been pressed
+        Debug.Log("Waiting for Button Click");
+        //WaitUntil needs to cast a standard boolean to a System.Func<bool>, this is accomplished by ()=>BooleanHere
+        // Found on https://answers.unity.com/questions/1265462/how-to-pass-predicate-to-a-coroutine.html
+        yield return new WaitUntil(()=>!MiniGameClose.activeSelf);
         GameObject.Find("Black Background").SetActive(false);
         if (GameObject.Find("Music") != null)
         {
@@ -54,7 +55,7 @@ public class SadCorgiManager : MonoBehaviour
 
         //then trigger the video
         Debug.Log("Waiting for 3 seconds");
-        //yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(3f);
         Systems.Status.Pause();
 
         VideoBackground.SetActive(true);
