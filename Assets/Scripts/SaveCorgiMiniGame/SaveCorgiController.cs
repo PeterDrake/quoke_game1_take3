@@ -26,9 +26,12 @@ public class SaveCorgiController : MonoBehaviour
         Destroy(GameObject.Find("EnvironmentObjects"));
         Destroy(GameObject.Find("SM_Veh_Car_Muscle_02 (2)"));
         script = Tarp.GetComponent<DragTarp>();
+        Video.SetActive(true);
         Video.GetComponent<VideoPlayer>().source = VideoSource.Url;
         string filepath = "http://3.128.90.245/testbuild/StreamingAssets/CorgiVideoFINALE.webm";
+        //string filepath = System.IO.Path.Combine(Application.streamingAssetsPath, "CorgiFINALEsmall.mp4");
         Video.GetComponent<VideoPlayer>().url = filepath;
+        Video.GetComponent<VideoPlayer>().Prepare();
         gameOver = false;
         start = false;
         Video.GetComponent<VideoPlayer>().loopPointReached += CheckOver;
@@ -75,9 +78,9 @@ public class SaveCorgiController : MonoBehaviour
         LogToServer logger = GameObject.Find("Logger").GetComponent<LogToServer>();
         logger.sendToLog("Completed Level 4!", "LEVEL");
         print  ("Video Is Over");
-     GameObject.Find("Mo1").GetComponent<SaveCorgiVisit>().CorgiRescue();
+        GameObject.Find("Mo1").GetComponent<SaveCorgiVisit>().CorgiRescue();
         gameOver = true;
-        print("done WINNEr");
+        print("done WINNEr <3");
         VideoBackground.SetActive(false);
         VideoDisplayer.SetActive(false);
         Video.SetActive(false);
