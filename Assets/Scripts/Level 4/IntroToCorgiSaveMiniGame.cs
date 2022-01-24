@@ -50,7 +50,7 @@ public class IntroToCorgiSaveMiniGame : MonoBehaviour
         Debug.Log("SaveCorgiIntro script started");
 
         Video.GetComponent<VideoPlayer>().source = VideoSource.Url;
-        string filepath = System.IO.Path.Combine(Application.streamingAssetsPath, "Sad1.mp4");
+        string filepath = System.IO.Path.Combine(Application.streamingAssetsPath, "CorgiFINALEsmall.mp4");
         Video.GetComponent<VideoPlayer>().url = filepath;
 
         //Video.GetComponent<VideoPlayer>().Prepare();
@@ -92,17 +92,17 @@ public class IntroToCorgiSaveMiniGame : MonoBehaviour
         Video.GetComponent<VideoPlayer>().Play();
         
         InTheMeantimeCanvas.SetActive(false);
-        yield return new WaitForSeconds(18f);
+        yield return new WaitForSeconds(62f); // Was 18 when it was just the first piece
         
-        string filepath = System.IO.Path.Combine(Application.streamingAssetsPath, "Sad2.mp4");
-        Video.GetComponent<VideoPlayer>().url = filepath;
-        Video.GetComponent<VideoPlayer>().Play();
-        yield return new WaitForSeconds(27f);
-        
-        filepath = System.IO.Path.Combine(Application.streamingAssetsPath, "Sad3.mp4");
-        Video.GetComponent<VideoPlayer>().url = filepath;
-        Video.GetComponent<VideoPlayer>().Play();
-        yield return new WaitForSeconds(17f);
+        // string filepath = System.IO.Path.Combine(Application.streamingAssetsPath, "Sad2.mp4");
+        // Video.GetComponent<VideoPlayer>().url = filepath;
+        // Video.GetComponent<VideoPlayer>().Play();
+        // yield return new WaitForSeconds(27f);
+        //
+        // filepath = System.IO.Path.Combine(Application.streamingAssetsPath, "Sad3.mp4");
+        // Video.GetComponent<VideoPlayer>().url = filepath;
+        // Video.GetComponent<VideoPlayer>().Play();
+        // yield return new WaitForSeconds(17f);
         
         //yield return new WaitForSeconds(63f);
         
