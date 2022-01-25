@@ -20,6 +20,7 @@ public class SaveCorgiController : MonoBehaviour
 
     private bool gameOver;
     private bool start;
+    private bool videoAlreadyLaunched;
 
     void Start()
     {
@@ -39,25 +40,32 @@ public class SaveCorgiController : MonoBehaviour
 
     void Update()
     {
-        if (!gameOver && !start)
+        if (!videoAlreadyLaunched)
         {
-            if (Tarp.transform.position.x < -117f )
-            {
-                if (GameObject.Find("MiniMusic") != null)
-                {
-                    GameObject.Find("MiniMusic").SetActive(false);
-                }
-                Destroy(script);
-                Banner.SetActive(false);
-                // StartVideo();
-                StartCoroutine(nameof(PlayVideo));
-            }
-            if (Tarp.transform.position.x > -110f)
-            {
-                // print("too far left");
-                Tarp.transform.position = new Vector3(-113f,107.1427f,-156f);
-            }
 
+            if (!gameOver && !start)
+            {
+                if (Tarp.transform.position.x < -117f)
+                {
+                    if (GameObject.Find("MiniMusic") != null)
+                    {
+                        GameObject.Find("MiniMusic").SetActive(false);
+                    }
+
+                    Destroy(script);
+                    Banner.SetActive(false);
+                    // StartVideo();
+                    videoAlreadyLaunched = true;
+                    Debug.Log("Starting the second Corgi video -- this should only happen once!");
+                    StartCoroutine(nameof(PlayVideo));
+                }
+
+                if (Tarp.transform.position.x > -110f)
+                {
+                    // print("too far left");
+                    Tarp.transform.position = new Vector3(-113f, 107.1427f, -156f);
+                }
+            }
         }
     }
 
@@ -68,7 +76,7 @@ public class SaveCorgiController : MonoBehaviour
         Video.SetActive(true);
         VideoDisplayer.SetActive(true);
         VideoBackground.SetActive(true);
-        Video.GetComponent<VideoPlayer>().Play();  
+        Video.GetComponent<VideoPlayer>().Play();
         start = true;
         yield return new WaitForSeconds(1f);
     }
@@ -77,7 +85,7 @@ public class SaveCorgiController : MonoBehaviour
     {
         LogToServer logger = GameObject.Find("Logger").GetComponent<LogToServer>();
         logger.sendToLog("Completed Level 4!", "LEVEL");
-        print  ("Video Is Over");
+        print("Video Is Over");
         GameObject.Find("Mo1").GetComponent<SaveCorgiVisit>().CorgiRescue();
         gameOver = true;
         print("done WINNEr <3");
@@ -88,7 +96,7 @@ public class SaveCorgiController : MonoBehaviour
         Corgi.SetActive(false);
 //        Frank.SetActive(false);
         camera.transform.position = new Vector3(-112.58f, 109.9f, -141.5f);
-        camera.transform.rotation = Quaternion.Euler(10,180,0);
+        camera.transform.rotation = Quaternion.Euler(10, 180, 0);
         Win.SetActive(true);
     }
 }
