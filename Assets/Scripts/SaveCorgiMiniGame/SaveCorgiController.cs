@@ -1,8 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Net.NetworkInformation;
 using UnityEngine;
 using UnityEngine.Video;
+using Debug = UnityEngine.Debug;
 
 public class SaveCorgiController : MonoBehaviour
 {
@@ -17,7 +19,8 @@ public class SaveCorgiController : MonoBehaviour
     public GameObject VideoDisplayer;
     public GameObject Video;
     public GameObject Win;
-
+    public GameObject VideoBackdrop;
+    
     private bool gameOver;
     private bool start;
     private bool videoAlreadyLaunched;
@@ -28,10 +31,11 @@ public class SaveCorgiController : MonoBehaviour
         Destroy(GameObject.Find("SM_Veh_Car_Muscle_02 (2)"));
         script = Tarp.GetComponent<DragTarp>();
         Video.SetActive(true);
-        Video.GetComponent<VideoPlayer>().source = VideoSource.Url;
-        // string filepath = "http://3.128.90.245/testbuild/StreamingAssets/CorgiVideoFINALE.webm";
-        string filepath = System.IO.Path.Combine(Application.streamingAssetsPath, "CorgiFINALEsmall.mp4");
-        Video.GetComponent<VideoPlayer>().url = filepath;
+        // Video.GetComponent<VideoPlayer>().source = VideoSource.Url;
+        // // string filepath = "http://3.128.90.245/testbuild/StreamingAssets/CorgiVideoFINALE.webm";
+        // string filepath = System.IO.Path.Combine(Application.streamingAssetsPath, "CorgiFINALEsmall.mp4");
+        // Video.GetComponent<VideoPlayer>().url = filepath;
+        
         Video.GetComponent<VideoPlayer>().Prepare();
         gameOver = false;
         start = false;
@@ -72,11 +76,13 @@ public class SaveCorgiController : MonoBehaviour
     private IEnumerator PlayVideo()
     {
         // print("starting video now");
+        VideoPlayer player = Video.GetComponent<VideoPlayer>();
         yield return new WaitForSeconds(.5f);
         Video.SetActive(true);
-        VideoDisplayer.SetActive(true);
-        VideoBackground.SetActive(true);
-        Video.GetComponent<VideoPlayer>().Play();
+        // VideoDisplayer.SetActive(true);
+        // VideoBackground.SetActive(true);
+        VideoBackdrop.SetActive(true);
+        player.Play();
         start = true;
         yield return new WaitForSeconds(1f);
     }
