@@ -8,8 +8,9 @@ public class DemoMenu : MonoBehaviour
     //loads the scene with the name you give it
     public void loadDemoScene(string sceneName)
     {
-        logger = GameObject.Find("Logger").GetComponent<LogToServer>();
-        logger.sendToLog("Began " + sceneName,"LEVEL");
+        Debug.Log("Load Demo Scene");
+        // logger = GameObject.Find("Logger").GetComponent<LogToServer>();
+        // logger.sendToLog("Began " + sceneName,"LEVEL");
         SceneManager.LoadScene(sceneName);
         SavedData.hints = false;
     }

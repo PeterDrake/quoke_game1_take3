@@ -89,8 +89,9 @@ public class SaveCorgiController : MonoBehaviour
 
     void CheckOver(UnityEngine.Video.VideoPlayer vp)
     {
-        LogToServer logger = GameObject.Find("Logger").GetComponent<LogToServer>();
-        logger.sendToLog("Completed Level 4!", "LEVEL");
+        Debug.Log("Video ends");
+        // LogToServer logger = GameObject.Find("Logger").GetComponent<LogToServer>();
+        // logger.sendToLog("Completed Level 4!", "LEVEL");
         print("Video Is Over");
         GameObject.Find("Mo1").GetComponent<SaveCorgiVisit>().CorgiRescue();
         gameOver = true;
@@ -100,7 +101,7 @@ public class SaveCorgiController : MonoBehaviour
         Video.SetActive(false);
         Tarp.SetActive(false);
         Corgi.SetActive(false);
-//        Frank.SetActive(false);
+        // Frank.SetActive(false);
         camera.transform.position = new Vector3(-112.58f, 109.9f, -141.5f);
         camera.transform.rotation = Quaternion.Euler(10, 180, 0);
         Win.SetActive(true);
