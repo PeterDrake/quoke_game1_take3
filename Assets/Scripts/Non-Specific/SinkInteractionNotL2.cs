@@ -2,8 +2,6 @@
 
 public class SinkInteractionNotL2 : MonoBehaviour
 {
-    private bool _firstInteraction = true;
-
     private InteractWithObject _interact;
     private void Start()
     {

@@ -36,9 +36,7 @@ public class QuakeManager : MonoBehaviour
     public float ShakeFrequency;
 
     private float ShakeElapsedTime = 0f;
-
-    private bool _surviveSatisfied;
-
+    
     public bool _leaveSatisfied;
 
     public string leaveHouse = "LEAVEHOUSE";
@@ -229,7 +227,6 @@ public class QuakeManager : MonoBehaviour
         OnQuake.Invoke(); // every function subscribed to OnQuake is called here
 
         _informationCanvas.ChangeText(textOnQuake);
-        Systems.Objectives.Register("SURVIVEQUAKE", () => _surviveSatisfied = true);
 
         StartCoroutine(ShakeIt());
     }

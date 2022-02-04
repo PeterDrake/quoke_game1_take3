@@ -5,7 +5,6 @@ using UnityEngine;
 
 public class AftershockTrigger : MonoBehaviour
 {
-    private bool aftershock = false;
     public bool _satisfied;
 
 
@@ -15,7 +14,6 @@ public class AftershockTrigger : MonoBehaviour
     {
         Debug.Log("CHANGE TO TWO");
         QuakeManager.Instance.TriggerCountdown(2f);
-        aftershock = true;
         _canvas.ChangeText("Talk to survivors");
         Systems.Objectives.Satisfy("LEAVEHOUSE");
         //Systems.Objectives.Register("TOILETTALK", () => _satisfied = true); Redundant with MissionBucket

@@ -9,6 +9,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Levels/StartPage.unity
     guid: e31b350d07bdf4e41a03b304660edeaf
   - enabled: 1
+    path: Assets/Scenes/Levels/Level 5.unity
+    guid: 3497732021e85d5409961965ab5861dc
+  - enabled: 1
+    path: Assets/Scenes/MiniGames/SaveCorgi.unity
+    guid: 037ce1f9d77b3024d8ddfd32a995211b
+  - enabled: 1
     path: Assets/Scenes/Levels/Menu.unity
     guid: 2f56badb82cbe47d29efd1ed6b56c0fb
   - enabled: 1
@@ -41,12 +47,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Levels/EndPage.unity
     guid: c360ed31686414f809c63a66b505e92a
-  - enabled: 1
-    path: Assets/Scenes/MiniGames/SaveCorgi.unity
-    guid: 037ce1f9d77b3024d8ddfd32a995211b
-  - enabled: 1
-    path: Assets/Scenes/Levels/Level 5.unity
-    guid: 3497732021e85d5409961965ab5861dc
   - enabled: 1
     path: Assets/Scenes/Levels/CorgiCutScene.unity
     guid: a482fdb8b81c8704d85c6b7f77c9f968

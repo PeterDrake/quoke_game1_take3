@@ -11,7 +11,6 @@ public class ToiletCheck : MonoBehaviour
     
     private InteractWithObject _interact;
     // private MoreMountains.InventoryEngine.Inventory _inventory;
-    private bool PlayerHasItems = false;
 
     // public BaseItem Bucket;
     // public BaseItem Bag;

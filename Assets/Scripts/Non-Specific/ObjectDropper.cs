@@ -22,9 +22,7 @@ public class ObjectDropper: MonoBehaviour
 
     private float fallRate;
     
-    private bool dropping;
     private Vector3 playerTransform;
-    private int i = 0;
     
     private void Start()
     {
@@ -40,7 +38,6 @@ public class ObjectDropper: MonoBehaviour
     
     private IEnumerator DropEm()
     {
-        dropping = true;
         if(DropDelay > 0) yield return new WaitForSeconds(DropDelay);
 
         foreach (var obj in falling_objects)

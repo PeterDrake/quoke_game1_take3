@@ -46,7 +46,6 @@ public class StatusManager : MonoBehaviour
     
     private new bool enabled = true;
     private bool alive;
-    private bool Degrading = true;
     private const float DEGRADETIME = 1f;
 
     private Color HydrationBar;

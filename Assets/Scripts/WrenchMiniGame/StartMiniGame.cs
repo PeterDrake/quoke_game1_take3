@@ -8,19 +8,20 @@ public class StartMiniGame : MonoBehaviour
 	public GameObject wrenchPrefab;
 	public GameObject flange;
 	public GameObject WinScreen;
+	
+	// The canvas contains the "Use Wrench" button
 	public GameObject canvas;
 
 	public Vector3 attachedWrenchPosition;
 	public float z_offset;
 
-	public float flangeRotationUpperBound = -5f;
-	public float flangeRotationlowerBound = 95f;
-	public float targetRotation = 90f;
-	public float targetThreshold = 2f;
+	public float flangeRotationUpperBound;
+	public float flangeRotationlowerBound;
+	public float targetRotation;
+	public float targetThreshold;
 
 	private GameObject wrench;
 
-	private bool Turned = false;
 	private bool started = false;
 	
 	private WrenchMiniGameMaster _wrenchMiniGameMaster;
@@ -46,7 +47,6 @@ public class StartMiniGame : MonoBehaviour
 			Systems.Objectives.Satisfy(ObjectiveName, false);
 		}
 		Destroy(flange.GetComponent<RotateObjectWithMouse>());
-		Turned = true;
 		logger.sendToLog("Completed Level 1!","LEVEL");
 		WinScreen.SetActive(true);
 		canvas.SetActive(false);

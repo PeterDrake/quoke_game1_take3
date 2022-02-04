@@ -34,28 +34,33 @@ public class SadCorgiManager : MonoBehaviour
     private IEnumerator StartCutScene()
     {
         Time.timeScale = 1;
+        Video.SetActive(true);
+        // string filepath = "http://3.128.90.245/testbuild/StreamingAssets/CorgiSadScene.webm";
+        string filepath = System.IO.Path.Combine(Application.streamingAssetsPath, "CorgiSadSmall.mp4");
+
+        Video.GetComponent<VideoPlayer>().url = filepath;
+        Video.GetComponent<VideoPlayer>().Prepare();
         //if the sanitation is built, wait for four seconds and trigger "In the meantime..." slide
-        Debug.Log("Waiting for 1.5 seconds");
-        yield return new WaitForSeconds(3f);
-        MiniGameClose.SetActive(false);
+        Debug.Log("Waiting for Button Click");
+        //WaitUntil needs to cast a standard boolean to a System.Func<bool>, this is accomplished by ()=>BooleanHere
+        // Found on https://answers.unity.com/questions/1265462/how-to-pass-predicate-to-a-coroutine.html
+        yield return new WaitUntil(()=>!MiniGameClose.activeSelf);
         GameObject.Find("Black Background").SetActive(false);
         if (GameObject.Find("Music") != null)
         {
             GameObject.Find("Music").GetComponent<AudioSource>().Pause();
         }
 
-        //InTheMeantimeCanvas.SetActive(true);
+        InTheMeantimeCanvas.SetActive(true);
 
         //then trigger the video
         Debug.Log("Waiting for 3 seconds");
-        //yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(3f);
         Systems.Status.Pause();
 
         VideoBackground.SetActive(true);
         VideoDisplayer.SetActive(true);
-        Video.SetActive(true);
-        string filepath = "http://3.128.90.245/testbuild/StreamingAssets/CorgiSadScene.webm";
-        Video.GetComponent<VideoPlayer>().url = filepath;
+        Debug.Log("About to play the movie.");
         Video.GetComponent<VideoPlayer>().Play();
 
         InTheMeantimeCanvas.SetActive(false);

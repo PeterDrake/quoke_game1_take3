@@ -34,7 +34,8 @@ public class SaveCorgiVisit : MonoBehaviour
 
     public void Interaction()
     {
-        SceneManager.LoadScene(MiniGameSceneName, LoadSceneMode.Additive);
+        // SceneManager.LoadScene(MiniGameSceneName, LoadSceneMode.Additive);
+        SceneManager.LoadScene(MiniGameSceneName);
         GameObject bruce = GameObject.Find("Bruce");
         GameObject maria = GameObject.Find("Maria");
         GameObject ahmad = GameObject.Find("Ahmad");
@@ -60,7 +61,7 @@ public class SaveCorgiVisit : MonoBehaviour
 
     public void CorgiRescue()
     {
-        logger.sendToLog("Rescued Tsu!", "MINIGAME");
+        // logger.sendToLog("Rescued Tsu!", "MINIGAME");
         winMusic.SetActive(true);
 
     }

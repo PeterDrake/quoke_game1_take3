@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
  
 public class SanitationBuilt : MonoBehaviour
@@ -43,6 +44,8 @@ public class SanitationBuilt : MonoBehaviour
     public GameObject toiletMusic;
     public GameObject miniWin;
 
+    public GameObject eventSystem;
+    
     private void Awake()
     {
         Buckets.SetActive(true);
@@ -72,6 +75,7 @@ public class SanitationBuilt : MonoBehaviour
             { GameObject.Find("AhmadAlert").GetComponent<FlatFollow>().appear(); }
             hint.GetComponent<HintController>().NextTask();
             hint.GetComponent<HintController>().AllTaskCompleted(GameObject.Find("Post EQ"));
+            eventSystem.SetActive(false);
             SceneManager.LoadScene(MiniGameSceneName, LoadSceneMode.Additive);
             SceneManager.sceneLoaded += StartMinigame;
             _interact.enabled = false;
@@ -112,7 +116,7 @@ public class SanitationBuilt : MonoBehaviour
         (canvi = GameObject.Find("MiniGameClose")).SetActive(false);
         (camera = GameObject.Find("Main Camera")).SetActive(false);
         (vcam = GameObject.Find("CM vcam1")).SetActive(false);
-        (sunlight = GameObject.Find("Sunlight")).SetActive(false);
+        // (sunlight = GameObject.Find("Sunlight")).SetActive(false);
         levelMusic.SetActive(false);
         toiletMusic.SetActive(true);
 
@@ -126,7 +130,7 @@ public class SanitationBuilt : MonoBehaviour
         canvi.SetActive(true);
         camera.SetActive(true);
         vcam.SetActive(true);
-        sunlight.SetActive(true);
+        // sunlight.SetActive(true);
         levelMusic.SetActive(true);
         toiletMusic.SetActive(false);
         _interact.enabled = true;
@@ -141,7 +145,7 @@ public class SanitationBuilt : MonoBehaviour
         camera.SetActive(true);
         vcam.SetActive(true);
         canvi.SetActive(true);
-        sunlight.SetActive(true);
+        // sunlight.SetActive(true);
         levelMusic.SetActive(true);
         toiletMusic.SetActive(false);
 
@@ -150,7 +154,8 @@ public class SanitationBuilt : MonoBehaviour
         _inventory.RemoveItem( Sawdust, 1);
         // _inventory.RemoveItem( Sanitizer, 1);
         // _inventory.RemoveItem( ToiletPaper, 1);
-
+        Debug.Log("Reactivating event system");
+        eventSystem.SetActive(true);
         UIManager.Instance.ToggleActive(theGUI);
 
         _canvi = GameObject.Find("GUI").GetComponent<GuiDisplayer>().GetBanner();

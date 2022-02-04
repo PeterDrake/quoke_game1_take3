@@ -37,7 +37,6 @@ public class Bookcase : MonoBehaviour
     private Vector3 ang;
 
     private bool secure = false;
-    private bool _satisfied;
 
     [Header("Time it takes to trigger the earthquake after the bookcase is secured")]
     public float TriggerTime = 5f;
@@ -52,9 +51,7 @@ public class Bookcase : MonoBehaviour
         fallCollider = transform.Find("Fall Collider").GetComponent<BoxCollider>(); 
         fallCollider.gameObject.GetComponent<CollisionCallback>().AddCallback("Player", HitPlayer);
         fallCollider.enabled = false;
-
-        Systems.Objectives.Register("BOOKCASE", (() => _satisfied = true));
-
+        
         //QuakeManager.Instance.OnQuake.AddListener(Fall);
     }
 

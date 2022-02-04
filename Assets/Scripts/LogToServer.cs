@@ -7,7 +7,6 @@ using UnityEngine.Networking;
 public class LogToServer : Singleton<LogToServer>
 {
     
-    private String message = "Message for log";
     private String postURL = "/dbenter.php";
 
     public string loggername;
@@ -48,7 +47,7 @@ public class LogToServer : Singleton<LogToServer>
 
         yield return www.SendWebRequest();
 
-        if (www.isNetworkError || www.isHttpError)
+        if ((www.result == UnityWebRequest.Result.ConnectionError) || (www.result == UnityWebRequest.Result.ProtocolError))
         {
             Debug.LogError(www.error);
         }

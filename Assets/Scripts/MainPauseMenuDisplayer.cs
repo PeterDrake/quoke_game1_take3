@@ -8,7 +8,6 @@ public class MainPauseMenuDisplayer : UIElement
 {
     public GameObject returnButton;
     private GameObject toggler;
-    private bool open;
 
     // Start is called before the first frame update
     void Start()
@@ -23,7 +22,6 @@ public class MainPauseMenuDisplayer : UIElement
         });
         initialize();
         toggler.SetActive(false);
-        open = false;
     }
 
     private void initialize()

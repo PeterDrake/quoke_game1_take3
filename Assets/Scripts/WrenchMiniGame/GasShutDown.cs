@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
 
 public class GasShutDown : MonoBehaviour
@@ -16,9 +17,7 @@ public class GasShutDown : MonoBehaviour
     
     private Item Wrench;
     
-    private bool HasWrench;
-    
-    private byte Conditions; //Condition is 0
+    private bool hasWrench;
     
     private GameObject canvi;
     private GameObject camera;
@@ -26,7 +25,8 @@ public class GasShutDown : MonoBehaviour
     public GameObject gasAudio;
     public GameObject levelWin;
     public GameObject miniWin;
-
+    public GameObject eventSystem;  // So we can shut this down when we start the minigame
+    
     private LogToServer logger;
     void Start()
     {
@@ -35,16 +35,17 @@ public class GasShutDown : MonoBehaviour
         _inventory = Systems.Inventory;
         
        Wrench =  Resources.Load<Item>("Items/Wrench");
-       _inventory.CheckOnAdd.AddListener(UpdateConditions);
+       _inventory.CheckOnAdd.AddListener(UpdateHasWrench);
         
     }
     
     public void Interaction()
     {
-        if ((Conditions ^ 0x1) == 0)
+        if (hasWrench)
         {
             logger.sendToLog("Started gas mini game","MINIGAME");
             countdown.GetComponent<CountdownBoom>().StopGasCount();
+            eventSystem.SetActive(false);
             SceneManager.LoadScene(MiniGameSceneName, LoadSceneMode.Additive);
             SceneManager.sceneLoaded += StartMinigame;
             _interact.enabled = false;
@@ -57,12 +58,9 @@ public class GasShutDown : MonoBehaviour
         }
     }
     //CAMERA, ui, move stage up a lot
-    private void UpdateConditions() //called every time an item is added to the inventory 
+    private void UpdateHasWrench() //called every time an item is added to the inventory 
     {
-        if ((Conditions ^ 0x1) == 0) return;
-
-        if ((Conditions & 0x1) > 0 || _inventory.HasItem(Wrench, 1)) //first condition not met
-            Conditions |= 0x1;
+        hasWrench = _inventory.HasItem(Wrench, 1);
     } 
 
     private void StartMinigame(Scene scn, LoadSceneMode lsm)
@@ -98,7 +96,7 @@ public class GasShutDown : MonoBehaviour
         canvi.SetActive(true);
         levelAudio.SetActive(true);
         gasAudio.SetActive(false);
-
+        eventSystem.SetActive(true);
         UIManager.Instance.ToggleActive(theGUI);
         //_inventory.RemoveItem(Wrench, 1);
        

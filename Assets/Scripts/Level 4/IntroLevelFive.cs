@@ -54,6 +54,7 @@ public class IntroLevelFive : MonoBehaviour
 
     }
     
+    // This method does not actually start the cutscene
     private IEnumerator StartCutScene()
     {
         //change banner to "Look for Tsu"

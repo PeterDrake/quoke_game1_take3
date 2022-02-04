@@ -12,9 +12,6 @@ public class QuakeCommence : MonoBehaviour
     private bool InteractKitc;
     private bool InteractWardrobe;
     private bool Interactbookshelf;
-    
-    private bool _satisfied;
-
 
     public void ExploredBath()
     {
@@ -47,7 +44,6 @@ public class QuakeCommence : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Systems.Objectives.Register("EXPLOREAREA", () => _satisfied = true);
         Systems.Objectives.printObjectives();
         Debug.Log("Start called");
         ExploreBath = false;
