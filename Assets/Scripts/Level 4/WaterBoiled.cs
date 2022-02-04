@@ -24,9 +24,9 @@ public class WaterBoiled : MonoBehaviour
     {
         yield return new WaitForSeconds(3f);
         Steam.SetActive(true);
-        Fire.SetActive(false);
+        // Fire.SetActive(false);
         yield return new WaitForSeconds(2f);
-        Fire2.SetActive(false);
+        // Fire2.SetActive(false);
         yield return new WaitForSeconds(3f);
         Steam.SetActive(false);
         this.gameObject.SetActive(false);

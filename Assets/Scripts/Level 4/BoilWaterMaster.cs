@@ -65,7 +65,7 @@ public class BoilWaterMaster : MonoBehaviour
         script1.enabled = false;
         //Controller.SetActive(false);
         Pot1.SetActive(true);
-        Firecomplex.SetActive(false);
+        // Firecomplex.SetActive(false);
         Systems.Status.SlowDownHydrationLoss();
         Systems.Status.SlowDownReliefLoss();
     }
