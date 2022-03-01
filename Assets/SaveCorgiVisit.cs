@@ -61,7 +61,7 @@ public class SaveCorgiVisit : MonoBehaviour
 
     public void CorgiRescue()
     {
-        logger.sendToLog("Rescued Tsu!", "MINIGAME");
+        // logger.sendToLog("Rescued Tsu!", "MINIGAME");
         winMusic.SetActive(true);
 
     }
