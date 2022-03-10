@@ -3091,8 +3091,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 386, y: -239}
-  m_SizeDelta: {x: 220, y: 60}
+  m_AnchoredPosition: {x: 402, y: -216.8323}
+  m_SizeDelta: {x: 220, y: 93.8066}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1608484943
 MonoBehaviour:
@@ -3572,7 +3572,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -268, y: -266}
+  m_AnchoredPosition: {x: -284, y: -299}
   m_SizeDelta: {x: 500, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1748161649
@@ -3960,8 +3960,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 386, y: -291}
-  m_SizeDelta: {x: 220, y: 60}
+  m_AnchoredPosition: {x: 402, y: -312.8012}
+  m_SizeDelta: {x: 220, y: 100.5679}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1927290083
 MonoBehaviour:
@@ -4192,8 +4192,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00012207031, y: -340}
-  m_SizeDelta: {x: 1024.0001, y: 73.90277}
+  m_AnchoredPosition: {x: -92.438156, y: -198.05}
+  m_SizeDelta: {x: 833.1055, y: 73.9028}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1939222469
 MonoBehaviour:
@@ -4217,7 +4217,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 04a842e316b6f44bf8da702de26a8ed6, type: 3}
-    m_FontSize: 15
+    m_FontSize: 32
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
@@ -4228,8 +4228,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Note: BEECN and NET are Portland, Oregon specific. Please consult your
-    local emergency managers for information about your community'
+  m_Text: Live in Portland, Oregon? Get involved!
 --- !u!222 &1939222470
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4806,7 +4805,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 122, y: -266}
+  m_AnchoredPosition: {x: 106, y: -299}
   m_SizeDelta: {x: 500, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2004933310
