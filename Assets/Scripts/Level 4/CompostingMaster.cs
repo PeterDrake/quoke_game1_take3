@@ -35,9 +35,8 @@ public class CompostingMaster : MonoBehaviour
             
             if (Systems.Inventory.HasItem(boards, 1))
             {
-                
                 Systems.Inventory.RemoveItem(boards, 1);
-                box.SetActive(true);
+                box.GetComponent<MeshRenderer>().enabled = true;
                 made = true;
                 cube.transform.position = new Vector3(cube.transform.position.x, .5f, cube.transform.position.z);
                 cube.GetComponent<InteractWithObject>().SetInteractText("Press 'E' to add carbon material to box");
