@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641275, b: 0.5748172, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -157,8 +157,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 132, y: 757}
-  m_SizeDelta: {x: 894.4494, y: 78.0072}
+  m_AnchoredPosition: {x: 140.95, y: 757}
+  m_SizeDelta: {x: 881.92, y: 78.0072}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &14142760
 MonoBehaviour:
@@ -2999,8 +2999,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 11, y: 208}
-  m_SizeDelta: {x: 1000, y: 200}
+  m_AnchoredPosition: {x: 11, y: 200.11176}
+  m_SizeDelta: {x: 1000, y: 188.9565}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1575633797
 MonoBehaviour:
@@ -4952,8 +4952,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 11, y: 430.99997}
-  m_SizeDelta: {x: 1000, y: 99.7027}
+  m_AnchoredPosition: {x: 12, y: 414.69}
+  m_SizeDelta: {x: 1000, y: 110.7462}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2022432666
 MonoBehaviour:
@@ -4977,7 +4977,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: b51a3e520f9164da198dc59c8acfccd6, type: 3}
-    m_FontSize: 20
+    m_FontSize: 18
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -4991,8 +4991,8 @@ MonoBehaviour:
   m_Text: "                 Jay Wilson, Clackamas County Emergency Management; Justin
     Ross, Alice Busch, Multnomah County Emergency Management; Chris Walsh, Washington
     County Emergency Management; Regina Ingabire, Da\u2019Von Angel-Wilson, Jeremy
-    Van Keuren, Portland Bureau of Emergency Management; Laura Hall, Regional Disaster
-    Preparedness Organization; Jeff Rubin\n\n"
+    Van Keuren, Glenn Devitt, Portland Bureau of Emergency Management; Laura Hall,
+    Regional Disaster Preparedness Organization; Jeff Rubin\n\n"
 --- !u!222 &2022432667
 CanvasRenderer:
   m_ObjectHideFlags: 0
