@@ -2862,7 +2862,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d710d5fb72c143219fc7308692fb448, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  site: https://drive.google.com/file/d/1d2CTMeX4VzRDpvr06gUK_7ace_cWR97Z/view678234336
+  site: https://drive.google.com/file/d/1d2CTMeX4VzRDpvr06gUK_7ace_cWR97Z/view
 --- !u!4 &1423712529
 Transform:
   m_ObjectHideFlags: 0
