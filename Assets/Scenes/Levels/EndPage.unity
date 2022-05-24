@@ -157,7 +157,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 136, y: 795}
+  m_AnchoredPosition: {x: 130, y: 793}
   m_SizeDelta: {x: 881.92, y: 78.0072}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &14142760
@@ -182,7 +182,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: b51a3e520f9164da198dc59c8acfccd6, type: 3}
-    m_FontSize: 20
+    m_FontSize: 18
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -856,8 +856,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 12, y: 706.15}
-  m_SizeDelta: {x: 1000, y: 99.7027}
+  m_AnchoredPosition: {x: -4.1369, y: 691}
+  m_SizeDelta: {x: 977.4083, y: 99.7027}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &539167984
 MonoBehaviour:
@@ -881,7 +881,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: b51a3e520f9164da198dc59c8acfccd6, type: 3}
-    m_FontSize: 20
+    m_FontSize: 18
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -892,10 +892,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '                             Blythe Ballesteros, Aleksa Belic, Liam Beveridge,
-    Liza Clairagneau, Anna DeSmet, Samson Herman, Peter Huizenga, William Lew, Gabe
-    Mertz, Annabel Paris, Lana Parezanin, Ela Pencl, Jamie Quishenberry, Skye Russ,
-    Tristan Saldanha, Zeb Wichert, Sarah Wood
+  m_Text: '                                Blythe Ballesteros, Aleksa Belic, Liam
+    Beveridge, Liza Clairagneau, Anna DeSmet, Samson Herman, Peter Huizenga, William
+    Lew, Gabe Mertz, Annabel Paris, Lana Parezanin, Ela Pencl, Jamie Quishenberry,
+    Skye Russ, Tristan Saldanha, Zeb Wichert, Sarah Wood
 
 
 
@@ -1618,8 +1618,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 12, y: 325}
-  m_SizeDelta: {x: 1000, y: 110.7462}
+  m_AnchoredPosition: {x: -3.1877, y: 313.6092}
+  m_SizeDelta: {x: 978.7372, y: 94.7991}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &909006178
 MonoBehaviour:
@@ -1654,12 +1654,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "              Ludwig van Beethoven Symphony No. 5 in C Minor: Op. 67 recorded
-    by Skidmore College, licensed under CC BY (trailer); Wolfgang Amadeus Mozart
-    Requiem, performed by Herbert fon Karajan, Wiener Philharmoniker, Leontyne Pryce,
-    Hilde R\xF6ssel-Majdan, Fritz Wunderlich, Eberhard W\xE4chter, Water Berry, under
-    Public Domain Mark 1.0; Modest Mussorgsky, Night on Bald Mountain, released into
-    public domain by MusOpen."
+  m_Text: "                  Ludwig van Beethoven Symphony No. 5 in C Minor: Op.
+    67 recorded by Skidmore College, licensed under CC BY (trailer); Wolfgang Amadeus
+    Mozart Requiem, performed by Herbert fon Karajan, Wiener Philharmoniker, Leontyne
+    Pryce, Hilde R\xF6ssel-Majdan, Fritz Wunderlich, Eberhard W\xE4chter, Water Berry,
+    under Public Domain Mark 1.0; Modest Mussorgsky, Night on Bald Mountain, released
+    into public domain by MusOpen."
 --- !u!222 &909006179
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3060,8 +3060,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 12, y: 177}
-  m_SizeDelta: {x: 1000, y: 112.9527}
+  m_AnchoredPosition: {x: -1.8588, y: 163}
+  m_SizeDelta: {x: 981.395, y: 82.3874}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1575633797
 MonoBehaviour:
@@ -3085,12 +3085,12 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: b51a3e520f9164da198dc59c8acfccd6, type: 3}
-    m_FontSize: 14
+    m_FontSize: 12
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 300
-    m_Alignment: 3
+    m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -3471,8 +3471,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 12, y: 560}
-  m_SizeDelta: {x: 1000, y: 99.7027}
+  m_AnchoredPosition: {x: -4.137, y: 545}
+  m_SizeDelta: {x: 977.4082, y: 99.7027}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1704803162
 MonoBehaviour:
@@ -3496,7 +3496,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: b51a3e520f9164da198dc59c8acfccd6, type: 3}
-    m_FontSize: 20
+    m_FontSize: 18
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -3507,9 +3507,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '                                  National Science Foundation Award 1917148;
-    John S. Rogers Science Research Program at Lewis & Clark College; The Levin Family
-    Foundation
+  m_Text: '                                      National Science Foundation Award
+    1917148; John S. Rogers Science Research Program at Lewis & Clark College; The
+    Levin Family Foundation
 
 
 '
@@ -4763,8 +4763,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.0001, y: 533.64185}
-  m_SizeDelta: {x: 1024.0001, y: 397.5314}
+  m_AnchoredPosition: {x: -4.797, y: 533.64185}
+  m_SizeDelta: {x: 978.8166, y: 397.5314}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2003234507
 MonoBehaviour:
@@ -5004,8 +5004,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 12, y: 447}
-  m_SizeDelta: {x: 1000, y: 110.7462}
+  m_AnchoredPosition: {x: -3.1877, y: 449}
+  m_SizeDelta: {x: 978.7372, y: 110.7462}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2022432666
 MonoBehaviour:
@@ -5040,11 +5040,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "                 Jay Wilson, Clackamas County Emergency Management; Justin
-    Ross, Alice Busch, Multnomah County Emergency Management; Chris Walsh, Washington
-    County Emergency Management; Regina Ingabire, Da\u2019Von Angel-Wilson, Jeremy
-    Van Keuren, Glenn Devitt, Portland Bureau of Emergency Management; Laura Hall,
-    Regional Disaster Preparedness Organization; Jeff Rubin\n\n"
+  m_Text: "                    Jay Wilson, Clackamas County Emergency Management;
+    Justin Ross, Alice Busch, Multnomah County Emergency Management; Chris Walsh,
+    Washington County Emergency Management; Regina Ingabire, Da\u2019Von Angel-Wilson,
+    Jeremy Van Keuren, Glenn Devitt, Portland Bureau of Emergency Management; Laura
+    Hall, Regional Disaster Preparedness Organization; Jeff Rubin\n\n"
 --- !u!222 &2022432667
 CanvasRenderer:
   m_ObjectHideFlags: 0
