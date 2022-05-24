@@ -30,6 +30,7 @@ public class AudioController : MonoBehaviour
         // else if (halfVolume) { volume = musicSlide.value * 0.5f; }
         // else if (threeFourthsVol) { volume = musicSlide.value * 0.75f; }
         // else { volume = musicSlide.value; }
+        Debug.Log("Changing audio volume to " + musicSlide.value);
         video.SetDirectAudioVolume(0, musicSlide.value);
         print("audio controller started");
     }
