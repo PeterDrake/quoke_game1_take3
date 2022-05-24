@@ -43,7 +43,7 @@ public class AudioController : MonoBehaviour
             video.Play();
             changedSettings = false;
         }
-        else if (menuToggler.activeSelf)
+        else if (menuToggler != null && menuToggler.activeSelf)
         {
             changedSettings = true;
             video.Pause();
