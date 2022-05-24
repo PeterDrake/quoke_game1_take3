@@ -93,7 +93,7 @@ public class SaveCorgiController : MonoBehaviour
         // LogToServer logger = GameObject.Find("Logger").GetComponent<LogToServer>();
         // logger.sendToLog("Completed Level 4!", "LEVEL");
         print("Video Is Over");
-        GameObject.Find("Mo1").GetComponent<SaveCorgiVisit>().CorgiRescue();
+        this.GetComponent<SaveCorgiVisit>().CorgiRescue();
         gameOver = true;
         print("done WINNEr <3");
         VideoBackground.SetActive(false);
