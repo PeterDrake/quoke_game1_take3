@@ -19,9 +19,15 @@ public class ShelterVisit : MonoBehaviour
     public GameObject SaveCorgiAppear;
     public GameObject Controller;
     public InformationCanvas Banner;
-
+        
     private const string EventKey = "COMPOSTFINISHED";
+    public bool StormCanvasCurrentlyDisplayed = false;
 
+    public void SetStormCanvasCurrentlyDisplayed(bool value)
+    {
+        StormCanvasCurrentlyDisplayed = value;
+    }
+    
     private bool firstVisit;
     private bool _satisfied;
 
@@ -126,6 +132,10 @@ public class ShelterVisit : MonoBehaviour
 
         if (interactionDelayFrames <= 0 && playerInCollider && Input.GetAxis("Interact") > 0)
         {
+            if (StormCanvasCurrentlyDisplayed)  // Kludge to prevent action while this happens
+            {
+                return;
+            }
             interactionDelayFrames = interactionDelayFramesMax;
             if (hasItem && itemToReceive != null)
             {
@@ -222,12 +232,14 @@ public class ShelterVisit : MonoBehaviour
     }
 
     public void Kill()
-    {
+    { 
         Destroy(this);
     }
 
     public void OnFirstVisit()
     {
+        Debug.Log("OnFirstVisit");
+        StormCanvasCurrentlyDisplayed = true;
         StormCanvas.SetActive(true);
 
         //if (GameObject.Find("SchoolPointer") != null)
