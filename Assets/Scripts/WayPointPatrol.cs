@@ -24,6 +24,7 @@ public class WayPointPatrol : MonoBehaviour
         if (navMeshAgent.remainingDistance < navMeshAgent.stoppingDistance)
         {
             m_CurrentWaypointIndex = (m_CurrentWaypointIndex + 1) % waypoints.Length;
+            Debug.Log("a heading for " + waypoints[m_CurrentWaypointIndex].name);
             navMeshAgent.SetDestination(waypoints[m_CurrentWaypointIndex].position);
         }
     }
@@ -32,6 +33,7 @@ public class WayPointPatrol : MonoBehaviour
     {
         waypoints = nextWaypoints;
         m_CurrentWaypointIndex = 0;
+        Debug.Log("a heading for " + waypoints[0].name);
         navMeshAgent.SetDestination(waypoints[0].position);
     }
 }
